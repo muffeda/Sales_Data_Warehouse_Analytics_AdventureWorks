@@ -9,14 +9,23 @@ This repository contains SQL queries designed to quickly explore, segment, and a
 
 To execute the SQL scripts in this repository, follow these steps:
 
-1. **Set Up Your Environment**: Ensure you have installed SQL Server and SQL Server Management Studio. If you are using a different database system, ensure that the SQL syntax is compatible or adjust accordingly. For initiating the database, you can use the script called "00_init_database.sql" and make sure to change the respective source path of the datasets in this project repo to match your local environment or system.
-   Change the Path Applicable as per the below:
+1. **Set Up Your Environment**: 
+   <br>
+   Ensure you have installed SQL Server and SQL Server Management Studio. If you are using a different database system, ensure that the SQL syntax is compatible or adjust accordingly. For initiating the database, you can use the script called "00_init_database.sql" and make sure to change the respective source path of the datasets in this project repo to match your local environment or system.<br>
+   Change the Path Applicable as per the below:<br>
+
 ![title](Images/00_Change_Source_SQL_Script_Path.jpg)
-2. **Connect to the Database**: Use your preferred database client or command-line tool to connect to the Sales Data Warehouse database. I have used SQL Server Management Studio (SSMS) for this project.
 
-3. **Run the Scripts**: Copy and paste the SQL code from the desired script file into your SQL client and execute it. Review the results and make any necessary adjustments to the queries based on your specific data and analysis needs.
+<br>
 
-4. **Explore and Analyze**: Use the results of the queries to gain insights into the sales data, identify trends, and support decision-making processes.
+1. **Connect to the Database**:<br>
+    Use your preferred database client or command-line tool to connect to the Sales Data Warehouse database. I have used SQL Server Management Studio (SSMS) for this project.
+
+2. **Run the Scripts**:<br>
+    Copy and paste the SQL code from the desired script file into your SQL client and execute it. Review the results and make any necessary adjustments to the queries based on your specific data and analysis needs.
+
+3. **Explore and Analyze**: <br> 
+   Use the results of the queries to gain insights into the sales data, identify trends, and support decision-making processes.
 
 
 ## Analysis Content:
