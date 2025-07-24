@@ -3,6 +3,8 @@
 A comprehensive collection of SQL scripts for data exploration, analytics, and reporting. These scripts cover various analyses such as database exploration, measures and metrics, time-based trends, cumulative analytics, segmentation, and more.
 This repository contains SQL queries designed to quickly explore, segment, and analyze data within a relational database [ Called Sales Data Warehouse for a fictional company called Adventure Works]. Each script focuses on a specific analytical theme and demonstrates best practices for SQL queries.
 
+![title](Images/01_Analysis_Main_Image.jpg)
+
 ## SQL Scripts Execution
 
 To execute the SQL scripts in this repository, follow these steps:
