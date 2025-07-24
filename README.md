@@ -11,8 +11,9 @@ To execute the SQL scripts in this repository, follow these steps:
 
 1. **Set Up Your Environment**: 
    <br>
+   
    Ensure you have installed SQL Server and SQL Server Management Studio. If you are using a different database system, ensure that the SQL syntax is compatible or adjust accordingly. For initiating the database, you can use the script called "00_init_database.sql" and make sure to change the respective source path of the datasets in this project repo to match your local environment or system.<br>
-   Change the Path Applicable as per the below:<br>
+   Change the Path Applicable to you as per the below image:<br>
 
 ![title](Images/00_Change_Source_SQL_Script_Path.jpg)
 
@@ -35,29 +36,22 @@ Each SQL script in this repository is categorized by its analytical focus. Below
 <br> 
 
 - **Database Initialisation**: <br>
-<br>
-  Initial exploration of the database structure, including tables, columns, and relationships.
-
-<br> 
-
-
+  
+  Initial exploration of the database structure, including tables, columns, and relationships.<br> 
 - **Database Exploration**: <br>
-<br>
+
   Initial exploration of the database structure, including tables, columns, and relationships.      
   - What are the key tables in the database?
   - What are the relationships between these tables?
-  - What are the primary keys and foreign keys?
+  - What are the primary keys and foreign keys?<br> 
 
-<br> 
-
- 
 - **Dimensions Exploration**: <br>
-<br>
+
   Calculation of key performance indicators (KPIs) and metrics to
   - Retrieve a list of unique countries from which customers originate
   - Retrieve a list of unique categories, subcategories, and products
 - **Date Range Exploration**: <br>
-<br>
+
   Analysis of sales data over specific time periods to identify trends and patterns.
   - Determine the first and last order date and the total duration in months  
   - Find the youngest and oldest customer based on birthdate
@@ -66,7 +60,7 @@ Each SQL script in this repository is categorized by its analytical focus. Below
 
 
 - **Measures Exploration (Key Metrics)**: <br>
-  <br>
+
   To calculate aggregated metrics (e.g., totals, averages) for quick insights.To identify overall trends or spot anomalies.
 
   - Find the Total Sales
@@ -82,7 +76,7 @@ Each SQL script in this repository is categorized by its analytical focus. Below
 
   
 - **Magnitude Analysis**: <br>
-<br>
+
   To quantify data and group results by specific dimensions. Understanding data distribution across categories.
 
   - Find total customers by countries
@@ -96,7 +90,7 @@ Each SQL script in this repository is categorized by its analytical focus. Below
 <br> 
 
 - **Ranking Analysis**: <br>
-<br>
+
   To rank items (e.g., products, customers) based on performance or other metrics.
   To identify top performers or laggards.
 
@@ -109,7 +103,7 @@ Each SQL script in this repository is categorized by its analytical focus. Below
 <br> 
 
 - **Change Over Time Analysis**: <br>
-<br>
+
   To track trends, growth, and changes in key metrics over time.<br>
   For time-series analysis and identifying seasonality.<br>
   To measure growth or decline over specific periods.
@@ -119,7 +113,7 @@ Each SQL script in this repository is categorized by its analytical focus. Below
 <br> 
 
 - **Cumulative Analysis**: <br>
-<br>
+
   To calculate running totals or moving averages for key metrics.<br>
   To track performance over time cumulatively.<br>
   Useful for growth analysis or identifying long-term trends.
@@ -129,7 +123,7 @@ Each SQL script in this repository is categorized by its analytical focus. Below
 <br> 
 
 - **Performance Analysis (Year-over-Year, Month-over-Month) [YOY,MOM]**: <br>
-<br>
+
   To measure the performance of products, customers, or regions over time.<br>
   For benchmarking and identifying high-performing entities.<br>
   To track yearly trends and growth.
@@ -139,7 +133,7 @@ Each SQL script in this repository is categorized by its analytical focus. Below
 <br> 
 
 - **Data Segmentation Analysis**: <br>
-  <br>
+
   To group data into meaningful categories for targeted insights.<br>
   For customer segmentation, product categorization, or regional analysis.
 
@@ -153,7 +147,7 @@ Each SQL script in this repository is categorized by its analytical focus. Below
 <br>  
 
 - **Part-to-Whole Analysis**: <br>
-  <br>
+
   To compare performance or metrics across dimensions or time periods.<br>
   To evaluate differences between categories.<br>
   Useful for A/B testing or regional comparisons.<br>
@@ -161,7 +155,7 @@ Each SQL script in this repository is categorized by its analytical focus. Below
   - Which categories contribute the most to overall sales?<br><br>
   
 - **Building Product Report**:<br>
-  <br>
+
   This Product Report consolidates key product metrics and behaviors.<br><br>
   Report Specifications and Acceptance Criteria Include: <br>
     1. Gathers essential fields such as product name, category, subcategory, and cost.<br>
